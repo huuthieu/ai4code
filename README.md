@@ -6,7 +6,7 @@ This solution is based on Amet Erdem's [baseline](https://www.kaggle.com/code/ae
 ### Preprocessing
 To extract features for training, including the markdown-only dataframes and sampling the code cells needed for each note book, simply run:
 
-```$ python preprocess.py```
+```$ python preprocess.py --data_dir [your_data_dir]```
 
 Outputs will be in the ```./data``` folder:
 ```
